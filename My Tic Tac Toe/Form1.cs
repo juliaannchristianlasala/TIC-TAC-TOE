@@ -21,6 +21,14 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
+                if (buttonA1.Text == "X")
+                {
+                    if (buttonA2.Text == "X")
+                    {
+                        if (buttonA3.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonA1.Text);
+                    }
+                }
             }
         }
 

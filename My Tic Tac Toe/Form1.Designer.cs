@@ -55,6 +55,7 @@
             // buttonA2
             // 
             this.buttonA2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonA2.BackgroundImage")));
+            this.buttonA2.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonA2.Location = new System.Drawing.Point(134, 22);
             this.buttonA2.Name = "buttonA2";
             this.buttonA2.Size = new System.Drawing.Size(100, 100);
@@ -65,6 +66,7 @@
             // buttonA3
             // 
             this.buttonA3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonA3.BackgroundImage")));
+            this.buttonA3.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonA3.Location = new System.Drawing.Point(245, 22);
             this.buttonA3.Name = "buttonA3";
             this.buttonA3.Size = new System.Drawing.Size(100, 100);
@@ -75,6 +77,7 @@
             // buttonB3
             // 
             this.buttonB3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonB3.BackgroundImage")));
+            this.buttonB3.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonB3.Location = new System.Drawing.Point(245, 136);
             this.buttonB3.Name = "buttonB3";
             this.buttonB3.Size = new System.Drawing.Size(100, 100);
@@ -85,6 +88,7 @@
             // buttonB2
             // 
             this.buttonB2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonB2.BackgroundImage")));
+            this.buttonB2.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonB2.Location = new System.Drawing.Point(134, 136);
             this.buttonB2.Name = "buttonB2";
             this.buttonB2.Size = new System.Drawing.Size(100, 100);
@@ -95,6 +99,7 @@
             // buttonB1
             // 
             this.buttonB1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonB1.BackgroundImage")));
+            this.buttonB1.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonB1.Location = new System.Drawing.Point(24, 136);
             this.buttonB1.Name = "buttonB1";
             this.buttonB1.Size = new System.Drawing.Size(100, 100);
@@ -105,6 +110,7 @@
             // buttonC2
             // 
             this.buttonC2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonC2.BackgroundImage")));
+            this.buttonC2.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonC2.Location = new System.Drawing.Point(134, 249);
             this.buttonC2.Name = "buttonC2";
             this.buttonC2.Size = new System.Drawing.Size(100, 100);
@@ -115,6 +121,7 @@
             // buttonC1
             // 
             this.buttonC1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonC1.BackgroundImage")));
+            this.buttonC1.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonC1.Location = new System.Drawing.Point(24, 249);
             this.buttonC1.Name = "buttonC1";
             this.buttonC1.Size = new System.Drawing.Size(100, 100);
@@ -125,6 +132,7 @@
             // buttonC3
             // 
             this.buttonC3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonC3.BackgroundImage")));
+            this.buttonC3.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonC3.Location = new System.Drawing.Point(245, 249);
             this.buttonC3.Name = "buttonC3";
             this.buttonC3.Size = new System.Drawing.Size(100, 100);
