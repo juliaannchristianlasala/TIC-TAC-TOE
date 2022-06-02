@@ -21,7 +21,7 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
-                if (buttonA1.Text == "X")
+                if (buttonA1.Text == "X") //horizontal
                 {
                     if (buttonA2.Text == "X")
                     {
@@ -53,6 +53,22 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
+                if (buttonA2.Text == "X") //horizontal
+                {
+                    if (buttonA1.Text == "X")
+                    {
+                        if (buttonA3.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonA2.Text);
+                    }
+                }
+                else if (buttonA2.Text == "O")
+                {
+                    if (buttonA1.Text == "O")
+                    {
+                        if (buttonA3.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonA2.Text);
+                    }
+                }
             }
         }
 
@@ -68,6 +84,22 @@ namespace My_Tic_Tac_Toe
                 else
                 {
                     ButtonVal = "X";
+                }
+                if (buttonA3.Text == "X") //horizontal
+                {
+                    if (buttonA2.Text == "X")
+                    {
+                        if (buttonA1.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonA3.Text);
+                    }
+                }
+                else if (buttonA3.Text == "O")
+                {
+                    if (buttonA2.Text == "O")
+                    {
+                        if (buttonA1.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonA3.Text);
+                    }
                 }
             }
         }
@@ -85,6 +117,22 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
+                if (buttonB1.Text == "X") //horizontal
+                {
+                    if (buttonB2.Text == "X")
+                    {
+                        if (buttonB3.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonB1.Text);
+                    }
+                }
+                else if (buttonB1.Text == "O")
+                {
+                    if (buttonB2.Text == "O")
+                    {
+                        if (buttonB3.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonB1.Text);
+                    }
+                }
             }
         }
 
@@ -100,6 +148,22 @@ namespace My_Tic_Tac_Toe
                 else
                 {
                     ButtonVal = "X";
+                }
+                if (buttonB2.Text == "X") //horizontal
+                {
+                    if (buttonB1.Text == "X")
+                    {
+                        if (buttonB3.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonB2.Text);
+                    }
+                }
+                else if (buttonB2.Text == "O")
+                {
+                    if (buttonB1.Text == "O")
+                    {
+                        if (buttonB3.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonB2.Text);
+                    }
                 }
             }
         }
@@ -117,6 +181,22 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
+                if (buttonB3.Text == "X") //horizontal
+                {
+                    if (buttonB1.Text == "X")
+                    {
+                        if (buttonB2.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonB3.Text);
+                    }
+                }
+                else if (buttonB3.Text == "O")
+                {
+                    if (buttonB1.Text == "O")
+                    {
+                        if (buttonB2.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonB3.Text);
+                    }
+                }
             }
         }
 
@@ -132,6 +212,22 @@ namespace My_Tic_Tac_Toe
                 else
                 {
                     ButtonVal = "X";
+                }
+                if (buttonC1.Text == "X") //horizontal
+                {
+                    if (buttonC2.Text == "X")
+                    {
+                        if (buttonC3.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonB3.Text);
+                    }
+                }
+                else if (buttonC1.Text == "O")
+                {
+                    if (buttonC2.Text == "O")
+                    {
+                        if (buttonC3.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonC1.Text);
+                    }
                 }
             }
         }
@@ -149,6 +245,22 @@ namespace My_Tic_Tac_Toe
                 {
                     ButtonVal = "X";
                 }
+                if (buttonC2.Text == "X") //horizontal
+                {
+                    if (buttonC3.Text == "X")
+                    {
+                        if (buttonC1.Text == "X")
+                        MessageBox.Show("You're the Winner " + buttonC2.Text);
+                    }
+                }
+                else if (buttonC2.Text == "O")
+                {
+                    if (buttonC3.Text == "O")
+                    {
+                        if (buttonC1.Text == "O")
+                        MessageBox.Show("You're the Winner " + buttonC2.Text);
+                    }
+                }
             }
         }
 
@@ -164,6 +276,22 @@ namespace My_Tic_Tac_Toe
                 else
                 {
                     ButtonVal = "X";
+                }
+                if (buttonC3.Text == "X") //horizontal
+                {
+                    if (buttonC2.Text == "X")
+                    {
+                        if (buttonC1.Text == "X")
+                            MessageBox.Show("You're the Winner " + buttonC3.Text);
+                    }
+                }
+                else if (buttonC3.Text == "O")
+                {
+                    if (buttonC2.Text == "O")
+                    {
+                        if (buttonC1.Text == "O")
+                            MessageBox.Show("You're the Winner " + buttonC3.Text);
+                    }
                 }
             }
         }
