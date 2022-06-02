@@ -39,6 +39,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -58,6 +59,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -77,6 +79,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -96,6 +99,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -115,6 +119,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -143,6 +148,15 @@ namespace My_Tic_Tac_Toe
                 {
                     MessageBox.Show("DRAW");
                     counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -176,6 +190,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -195,6 +210,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -214,6 +230,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -242,6 +259,15 @@ namespace My_Tic_Tac_Toe
                 {
                     MessageBox.Show("DRAW");
                     counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -384,6 +410,15 @@ namespace My_Tic_Tac_Toe
                 {
                     MessageBox.Show("DRAW");
                     counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -486,6 +521,15 @@ namespace My_Tic_Tac_Toe
                 {
                     MessageBox.Show("DRAW");
                     counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
