@@ -1,0 +1,18 @@
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\bin\Debug\net6.0-windows\My Tic Tac Toe.exe
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\bin\Debug\net6.0-windows\My Tic Tac Toe.deps.json
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\bin\Debug\net6.0-windows\My Tic Tac Toe.runtimeconfig.json
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\bin\Debug\net6.0-windows\My Tic Tac Toe.dll
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\bin\Debug\net6.0-windows\My Tic Tac Toe.pdb
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.csproj.AssemblyReference.cache
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My_Tic_Tac_Toe.Form1.resources
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My_Tic_Tac_Toe.Properties.Resources.resources
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.csproj.GenerateResource.cache
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.AssemblyInfoInputs.cache
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.AssemblyInfo.cs
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.dll
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\refint\My Tic Tac Toe.dll
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.pdb
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\My Tic Tac Toe.genruntimeconfig.cache
+C:\Users\JULIA-ANN\source\repos\My Tic Tac Toe\My Tic Tac Toe\obj\Debug\net6.0-windows\ref\My Tic Tac Toe.dll
