@@ -3,6 +3,8 @@ namespace My_Tic_Tac_Toe
     public partial class Form1 : Form
     {
         String ButtonVal = "X";
+        int counter = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -46,7 +48,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -65,7 +67,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -84,7 +86,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -103,7 +105,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -122,7 +124,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -132,8 +134,15 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -157,7 +166,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -176,7 +185,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -195,7 +204,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC2.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -214,7 +223,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC2.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -224,8 +233,15 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -249,7 +265,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -259,6 +275,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -268,7 +285,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -278,6 +295,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -287,7 +305,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -297,6 +315,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -306,7 +325,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -316,6 +335,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -325,7 +345,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -335,6 +355,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter=0;
                         }
                     }
                 }
@@ -344,7 +365,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonA3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonA3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -354,8 +375,15 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -379,7 +407,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -389,6 +417,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -398,7 +427,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -408,6 +437,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -417,7 +447,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -427,6 +457,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -436,7 +467,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -446,8 +477,15 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -471,7 +509,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -481,6 +519,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -490,7 +529,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -500,6 +539,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -509,7 +549,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC2.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -519,6 +559,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -528,7 +569,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC2.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -538,6 +579,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -547,7 +589,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -557,6 +599,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -566,7 +609,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -576,6 +619,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -585,7 +629,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -595,6 +639,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -604,7 +649,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -614,8 +659,24 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -639,7 +700,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB2.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -649,6 +710,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -658,7 +720,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB2.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -668,6 +730,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -677,7 +740,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -687,6 +750,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -696,7 +760,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonB3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonB3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -706,8 +770,24 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -731,7 +811,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -741,6 +821,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -750,7 +831,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -760,6 +841,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -769,7 +851,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -779,6 +861,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -788,7 +871,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -798,6 +881,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -807,7 +891,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -817,6 +901,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -826,7 +911,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC1.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC1.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -836,8 +921,24 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -861,7 +962,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -871,6 +972,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -880,7 +982,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -890,6 +992,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -899,7 +1002,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB2.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -909,6 +1012,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -918,7 +1022,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB2.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC2.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC2.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -928,8 +1032,24 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
@@ -953,7 +1073,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -963,6 +1083,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -972,7 +1093,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonC1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -982,6 +1103,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -991,7 +1113,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -1001,6 +1123,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -1010,7 +1133,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonB3.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -1020,6 +1143,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -1029,7 +1153,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA1.Text == "X")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -1039,6 +1163,7 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
                 }
@@ -1048,7 +1173,7 @@ namespace My_Tic_Tac_Toe
                     {
                         if (buttonA1.Text == "O")
                         {
-                            MessageBox.Show("Yay! you're the Winner " + buttonC3.Text);
+                            MessageBox.Show("Yay! You're the Winner " + buttonC3.Text);
                             buttonA1.Text = "";
                             buttonA2.Text = "";
                             buttonA3.Text = "";
@@ -1058,8 +1183,24 @@ namespace My_Tic_Tac_Toe
                             buttonC1.Text = "";
                             buttonC2.Text = "";
                             buttonC3.Text = "";
+                            counter = 0;
                         }
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                    buttonA1.Text = "";
+                    buttonA2.Text = "";
+                    buttonA3.Text = "";
+                    buttonB1.Text = "";
+                    buttonB2.Text = "";
+                    buttonB3.Text = "";
+                    buttonC1.Text = "";
+                    buttonC2.Text = "";
+                    buttonC3.Text = "";
                 }
             }
         }
